@@ -1,0 +1,30 @@
+{
+  "name": "livraria-api",
+  "version": "1.2.0",
+  "description": "API RESTful de Livros e Autores com Clean Architecture, JWT, BCrypt, RBAC e Swagger",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "livraria",
+    "api",
+    "jwt",
+    "bcrypt",
+    "swagger"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}

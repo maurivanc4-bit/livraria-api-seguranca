@@ -1,0 +1,47 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Admin",
+      "email": "admin@livraria.com",
+      "senha_hash": "$2a$10$v2bGGkU2rX1Z9vgzC5TBZ.wJzF7BmA6sHr/hZT5qjBH9CDOWUthXi",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "nome": "Leitor",
+      "email": "leitor@gmail.com",
+      "senha_hash": "$2a$10$PB08xFhZ9g3/IlQwFpDrAeNJdBDklDngsUaP85Te75K8wnfPcN7ZG",
+      "role": "USER"
+    }
+  ],
+  "autores": [
+    {
+      "id": 1,
+      "nome": "Machado de Assis",
+      "nacionalidade": "Brasileiro"
+    }
+  ],
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Dom Casmurro",
+      "ano": 1899,
+      "autor_id": 1,
+      "comentarios": [
+        {
+          "id": 1,
+          "autor_nome": "Leitor",
+          "texto": "Clássico indispensável."
+        }
+      ]
+    },
+    {
+      "id": 1792462259306,
+      "titulo": "A Hora da Estrela",
+      "ano": 1977,
+      "autor_id": 1,
+      "comentarios": []
+    }
+  ]
+}
